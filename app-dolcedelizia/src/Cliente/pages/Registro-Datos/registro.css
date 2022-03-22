@@ -1,0 +1,13 @@
+.Registro{
+    
+    
+
+    text-align:center;
+    align-items:center;
+    display:flex;
+}
+
+.Registro Form{
+    margin: auto;
+    max-width: 600px;
+}

@@ -1,0 +1,50 @@
+//importa todos los archivos scss
+@import './Styles/colors';
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+ // background-image: url(Recursos/dolcedelizia.png);
+  min-height: 10vh;
+  
+  
+
+  font-size: calc(10px + 2vmin);
+ 
+}
+
+.App-link {
+  color: $linkColor;
+}
+
+
+.App-main{
+
+  color: black;
+  min-height: 500px;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

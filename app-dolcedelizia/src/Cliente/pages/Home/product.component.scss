@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth@92.4&display=swap');
+.item{
+    
+    display: inline-block;
+    
+    margin: 15px;
+    width: 250px;
+    vertical-align: top;
+    border-bottom: 0.1rem solid #c0c0c0;
+    border-left: 0.1rem solid #c0c0c0;
+    border-right: 0.1rem solid #c0c0c0;
+    border-top: 0.1rem solid #c0c0c0;
+}
+.item .image img{
+    height: 330px;
+    max-width:250px;
+    max-height: 250px;
+}
+
+.item .title{
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    
+}
+
+.item .prize{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight:900;
+    
+}
